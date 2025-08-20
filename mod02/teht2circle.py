@@ -1,16 +1,16 @@
 import math
-r = input("Mikä on säteenne pituus?")
+r = input("Mikä on säteenne pituus metreinä?")
 
-## numero joka tulostetaan
+# numero joka tulostetaan
 rad = 0
 
-## hyväksy vain numerot
-if r.isdigit():
-    ## muuta teksti numeroksi jotta voidaan laskea sillä
-    rad = int(r)
+# hyväksy vain numerot
+if r is float or int:
+    # muuta teksti numeroksi jotta voidaan laskea sillä
+    rad = float(r)
 else:
     print("anna numero jatkossa!!")
     quit()
 
 alue = rad ** 2 * math.pi
-print("Teidän ympyränne on " + alue)
+print("Teidän ympyränne on alueeltaan " + str(alue) + " neliömetriä")

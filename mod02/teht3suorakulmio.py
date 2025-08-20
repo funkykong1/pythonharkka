@@ -1,13 +1,14 @@
-a = input("Mikä on kannan pituus?")
-b = input("Mikä on korkeuden pituus?")
+a = input("Monta metriä on kannan pituus? ")
+b = input("Monta metriä on korkeuden pituus? ")
 
-kanta = int(a)
-korkeus = int(b)
+kanta = float(a)
+korkeus = float(b)
 
 
 alue = kanta * korkeus
 
 piiri = kanta*2 + korkeus*2
 
-print("Teidän pinta-alanne on " + str(alue))
-print("Piirinne on " + str(piiri))
+print("Teidän pinta-alanne on " + str(alue) + " neliömetriä")
+
+print("Piirinne on " + str(piiri) + " metriä")

@@ -1,7 +1,9 @@
-num1 = int(input("Anna ensimmäinen numero"))
-num2 = int(input("Anna toinen numero"))
-num3 = int(input("Anna kolmas numero"))
+print("Anna kolme kokonaisnumeroa!!")
+num1 = int(input("Anna ensimmäinen numero "))
+num2 = int(input("Anna toinen numero "))
+num3 = int(input("Anna kolmas numero "))
 
+# laske
 summa = num1+num2+num3
 tulo = num1*num2*num3
 keskiarvo = summa/3
