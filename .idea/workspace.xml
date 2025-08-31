@@ -50,39 +50,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.1eka.executor": "Run",
-    "Python.teht01Kalastaja.executor": "Run",
-    "Python.teht01KolmellaJaolliset.executor": "Run",
-    "Python.teht02Hyttiluokka.executor": "Run",
-    "Python.teht02TuumatSenteiksi.executor": "Run",
-    "Python.teht03HEMOGLOBIINI.executor": "Run",
-    "Python.teht03SuurinJaPienin.executor": "Run",
-    "Python.teht04KarkausVuosi.executor": "Run",
-    "Python.teht04NumeronArvaus.executor": "Run",
-    "Python.teht05Salasana.executor": "Run",
-    "Python.teht06ympyrä.executor": "Run",
-    "Python.teht1nimi.executor": "Run",
-    "Python.teht2circle.executor": "Run",
-    "Python.teht3suorakulmio.executor": "Run",
-    "Python.teht4kolmenumeroa.executor": "Run",
-    "Python.teht5keskiaikainen.executor": "Run",
-    "Python.teht6RandNum.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.1eka.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht01Kalastaja.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht01KolmellaJaolliset.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht02Hyttiluokka.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht02TuumatSenteiksi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht03HEMOGLOBIINI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht03SuurinJaPienin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht04KarkausVuosi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht04NumeronArvaus.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht05Salasana.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht06ympyrä.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht1nimi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht2circle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht3suorakulmio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht4kolmenumeroa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht5keskiaikainen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teht6RandNum.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.teht05Salasana">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonharkka" />
@@ -254,10 +254,10 @@
     </configuration>
     <list>
       <item itemvalue="Python.teht01KolmellaJaolliset" />
+      <item itemvalue="Python.teht01Kalastaja" />
+      <item itemvalue="Python.teht04NumeronArvaus" />
       <item itemvalue="Python.teht05Salasana" />
       <item itemvalue="Python.teht06ympyrä" />
-      <item itemvalue="Python.teht04NumeronArvaus" />
-      <item itemvalue="Python.teht01Kalastaja" />
       <item itemvalue="Python.teht04KarkausVuosi" />
     </list>
     <recent_temporary>
