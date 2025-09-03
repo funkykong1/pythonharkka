@@ -7,6 +7,7 @@ parilliset = []
 
 def listat(kk):
     for j in kaikki:
+        # jakojäännös :O
         if j % 2 == 0:
             parilliset.append(j)
 

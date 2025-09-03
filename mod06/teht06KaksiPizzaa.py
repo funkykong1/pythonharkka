@@ -21,8 +21,8 @@ def pizza(halk, hinta):
 
 
 for i in range(2):
-    pizza_hinta = (float(input(f"Anna pizzan #{i+1} hinta!")))
-    pizza_halk = (float(input(f"Anna pizzan #{i+1} halkaisija!")))
+    pizza_hinta = (float(input(f"Anna pizzan #{i+1} hinta! € ")))
+    pizza_halk = (float(input(f"Anna pizzan #{i+1} halkaisija! cm ")))
 
     pizza_indexer = pizza_indexer + 1
     pizza(pizza_halk, pizza_hinta)

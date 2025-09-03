@@ -1,4 +1,4 @@
-print("Muunnan galloonat litroiksi teille. Anna negatiivinen luku lopettaaksesi ohjelman !!!! Suutun jos annat jotain muuta kun numeron")
+print("Muunnan galloonat litroiksi teille. Anna negatiivinen luku lopettaaksesi ohjelman !!!! \nSuutun jos annat jotain muuta kun numeron")
 
 #yksinkertaisesti muuntaa ja tulostaa
 def muunnos(gl):

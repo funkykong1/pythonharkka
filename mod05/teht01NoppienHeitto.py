@@ -1,5 +1,5 @@
 import random
-nopat = int(input("Anna minulle numero, heitän tämän numeron verran noppia ja kerron silmäluvut!!"))
+nopat = int(input("Anna minulle numero, heitän tämän numeron verran noppia ja kerron silmäluvut!! "))
 luvut = 0
 
 for i in range(nopat):
@@ -7,4 +7,4 @@ for i in range(nopat):
     num = random.randint(1,6)
     luvut += num
 
-print(f"Yhteensä {luvut}!!")
+print(f"{nopat} noppaa heitetty joiden summa {luvut}!!")
