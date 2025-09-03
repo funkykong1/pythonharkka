@@ -1,5 +1,5 @@
 import time
-print("Minulla on lista jossa tulisi olla lentokenttiä sekä niiden ICAO tunnisteet.\n Voit etsiä tietokannasta tai lisätä siihen uuden artikkelin.")
+print("Minulla on lista jossa on lentokenttiä sekä niiden ICAO tunnisteet.\nVastaa minulle puhekielellä siitä mitä haluaisit tehdä!! Vaihtoehtoina on :\n Tietokannasta etsiminen \n Tietokantaan lisääminen \n Ohjelmasta poistuminen \n ")
 lenkent = {"EFHK" : "Helsinki-Vantaa Airport",
            "EGLL" : "London Heathrow Airport",
            "LIRF" : "Rome Fiumicino Airport",
@@ -11,82 +11,87 @@ uusi = True
 
 
 # mullistava teknologia jonka avulla voidaan kommunikoida tietokoneen kanssa ilman että käytetään ykkösiä ja nollia!!
-answers = {"en" : False,
-           "ei" : False,
-           "0" : False,
-           "ei kiitos" : False,
-           "no" : False,
-           "false" : False,
+answers = {
+            "exit" : -1,
+            "poistu" : -1,
+            "häivy" : -1,
+            "x" : -1,
+            "stop": -1,
+            "cancel" : -1,
+            "poistua" : -1,
+            "back" : -1,
 
-           "joo" : True,
-           "juu" : True,
-           "kyllä" : True,
-           "yep" : True,
-           "yes" : True,
-           "kyllä kiitos" : True,
-           "true" : True,
-           "1" : True
+            "search" : 0,
+            "etsi" : 0,
+            "hae" : 0,
+            "lookup" : 0,
+            "google" : 0,
+            "etsiä" : 0,
+            "hakemisto" : 0,
+            "haku" : 0,
 
+            "lisää" : 1,
+            "lisätä" : 1,
+            "add" : 1,
+            "uusi" : 1,
+            "new" : 1
         }
-def tulkitse_vastaus(vast):
+def tulkitse_vastaus(va):
     lp = None
 
-    for v in answers:
-        if vast == v:
-            lp = answers[v]
+    for sana in answers:
+        if sana in va:
+            lp = answers[sana]
+            break
 
     return lp
 
 while True:
-    lippu = None
 
-    if uusi:
-        t = input("Haluatko etsiä tietokannasta jotain? ").lower()
+    #aivan suunnattoman hieno algoritmi..
+    vast = tulkitse_vastaus(input("Haluatko etsiä tai lisätä tietokantaan jotain? ").lower().strip())
 
-        lippu = tulkitse_vastaus(t)
+    if vast == -1:
+        print("Hyvästi!")
+        break
+    elif vast == 0:
 
-        # Mikäli vastausta ei ymmärretä, yritä uudelleen
-        if lippu is None:
-            print("En ymmärtänyt vastaustasi, voisitko puhua selvemmin :-) iha vaan joo tai ei riittää")
-            continue
+        # uusi while looppi jotta ei tarvitse aloittaa ohjelmaa uudelleen joka kerta
+        while True:
+            print(f"Lentokentät tietokannassa ovat {list(lenkent.keys())}")
+            icao = input("Valitse lentokenttä ICAO-koodin mukaan. Tyhjä vastaus lopettaa.").upper().strip()
 
-        uusi = False
-
-
-    while lippu == True:
-
-        print(f"Lentokentät tietokannassa ovat {list(lenkent.keys())}")
-
-        icao = input("Etsi lentokenttää ICAO-koodin mukaan. Tyhjä vastaus lopettaa.").upper().strip()
-
-        if icao == "":
-            break
-        else:
-
-            try:
-                lenkent[icao]
-            except KeyError:
-                print("Tunnus ei vastaa mitään tunnettua lentokenttää.")
+            if icao == "":
+                break
             else:
-                print(f"{icao} vastaa kohdetta {lenkent[icao]} !!")
+                try:
+                    lenkent[icao]
+                except KeyError:
+                    print("Tunnus ei vastaa mitään tunnettua lentokenttää.")
+                    time.sleep(1.5)
+                else:
+                    print(f"{icao} vastaa kohdetta {lenkent[icao]} !!")
+                    time.sleep(1.5)
 
-            # on vähän kivempi kun haettu tieto ilmestyy ja siihen ei heti tule samaa hakemistoa peräjälkeen
-            time.sleep(1)
+    elif vast == 1:
+        while True:
+            print(f"Lentokentät tietokannassa ovat {list(lenkent.keys())}")
 
+            lk = input("Anna uuden lentokentän nimi. Tyhjä vastaus lopettaa.").title().strip()
+            if lk == "":
+                break
+            ic = input("Anna uuden lentokentän ICAO-tunnus. Tyhjä vastaus lopettaa.").upper().strip()
+            if ic == "":
+                break
 
-    while lippu == False:
-        lk = input("Anna uuden lentokentän nimi. Tyhjä vastaus lopettaa.").title().strip()
-        if lk == "":
-            break
-        ic = input("Anna uuden lentokentän ICAO-tunnus. Tyhjä vastaus lopettaa.").upper().strip()
-        if ic == "":
-            break
+            lenkent[ic] = lk
+            print(f"Tietokantaan lisätty '{lk}' tunnuksella '{ic}'!!")
+            time.sleep(1.5)
 
-        lenkent[ic] = lk
-        print(f"Tietokantaan lisätty {lk} tunnuksella {ic}!!")
-
-    uusi = True
-
+        #mikäli vastausta ei ymmärretä, yritä uudelleen!
+    else:
+        print("Anna vastaukseksi vaan sana jota haluat tehdä, etsiä, lisätä, poistua")
+        continue
 
 
 

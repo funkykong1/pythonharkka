@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30276a3f-f669-4de5-9e81-035d6d88080a" name="Changes" comment="modulé 5">
-      <change afterPath="$PROJECT_DIR$/mod07/teht01VuodenAjat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod07/teht02UusiVanhaNimi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod07/teht03Lentokenttiä.py" afterDir="false" />
+    <list default="true" id="30276a3f-f669-4de5-9e81-035d6d88080a" name="Changes" comment="legendaarinen tehtävä tehty lol">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod05/teht01NoppienHeitto.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod05/teht01NoppienHeitto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod05/teht04Kaupungit.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod05/teht04Kaupungit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod06/teht03BensiinitLitroiksi.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod06/teht03BensiinitLitroiksi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod06/teht04ListanLuvut.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod06/teht04ListanLuvut.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod06/teht05KaksiListaa.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod06/teht05KaksiListaa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod06/teht06KaksiPizzaa.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod06/teht06KaksiPizzaa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod07/teht03Lentokenttiä.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod07/teht03Lentokenttiä.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +63,7 @@
     "Python.teht03Alkuluku.executor": "Run",
     "Python.teht03BensiinitLitroiksi.executor": "Run",
     "Python.teht03HEMOGLOBIINI.executor": "Run",
-    "Python.teht03Lentokenttiä.executor": "Profiler",
+    "Python.teht03Lentokenttiä.executor": "Run",
     "Python.teht03SuurinJaPienin.executor": "Run",
     "Python.teht04KarkausVuosi.executor": "Run",
     "Python.teht04Kaupungit.executor": "Run",
@@ -306,7 +298,7 @@
       <workItem from="1756377434401" duration="950000" />
       <workItem from="1756628096494" duration="3097000" />
       <workItem from="1756807737645" duration="6777000" />
-      <workItem from="1756881114355" duration="10359000" />
+      <workItem from="1756881114355" duration="15723000" />
     </task>
     <task id="LOCAL−00001" summary="eka">
       <option name="closed" value="true" />
@@ -343,7 +335,14 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1756727445306</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="legendaarinen tehtävä tehty lol">
+      <option name="closed" value="true" />
+      <created>1756894895660</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1756894895660</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +370,8 @@
     <MESSAGE value="toka lol" />
     <MESSAGE value="korjasin vähän asioita" />
     <MESSAGE value="modulé 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="modulé 5" />
+    <MESSAGE value="legendaarinen tehtävä tehty lol" />
+    <option name="LAST_COMMIT_MESSAGE" value="legendaarinen tehtävä tehty lol" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$teht04ListanLuvut.coverage" NAME="teht04ListanLuvut Coverage Results" MODIFIED="1756881991716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />
@@ -402,7 +402,7 @@
     <SUITE FILE_PATH="coverage/PythonProject$teht03Alkuluku.coverage" NAME="teht03Alkuluku Coverage Results" MODIFIED="1756881325607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod05" />
     <SUITE FILE_PATH="coverage/PythonProject$teht02IsoNoppa.coverage" NAME="teht02IsoNoppa Coverage Results" MODIFIED="1756808384613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />
     <SUITE FILE_PATH="coverage/PythonProject$teht4kolmenumeroa.coverage" NAME="teht4kolmenumeroa Coverage Results" MODIFIED="1755671000306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod02" />
-    <SUITE FILE_PATH="coverage/PythonProject$teht03Lentokenttiä.coverage" NAME="teht03Lentokenttiä Coverage Results" MODIFIED="1756890941607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod07" />
+    <SUITE FILE_PATH="coverage/PythonProject$teht03Lentokenttiä.coverage" NAME="teht03Lentokenttiä Coverage Results" MODIFIED="1756899164962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod07" />
     <SUITE FILE_PATH="coverage/pythonharkka$teht05Salasana.coverage" NAME="teht05Salasana Coverage Results" MODIFIED="1756631150961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod04" />
   </component>
 </project>
