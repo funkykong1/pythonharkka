@@ -10,6 +10,7 @@ yhteys = mysql.connector.connect(
     autocommit=True
 )
 
+# en tiedä miksi tämä tulostaa none!!!!!!!!!
 ic = input(print("Anna minulle yhden lentokentän ICAO-koodi, etsin lentokentän nimen ja sijainnin teille.")).upper().strip()
 ic = f'"{ic}"'
 

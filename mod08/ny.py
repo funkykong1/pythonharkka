@@ -1,5 +1,7 @@
 import mysql.connector
 
+# TÄMÄ ON TESTITIEDOSTO JONKA TEIN TESTAAMISTA VARTEN ITSELLENI EIKÄ OLE TEHTÄVÄ!!!!!!
+
 yhteys = mysql.connector.connect(
     port = 3306,
     host="localhost",
@@ -11,7 +13,7 @@ yhteys = mysql.connector.connect(
 
 cursor = yhteys.cursor() #emt mutta tämä antaa suorittaa komentoja
 
-cursor.execute("SELECT type FROM airport") # suorittaa komennon
+cursor.execute("SELECT ident FROM airport") # suorittaa komennon
 
 res = cursor.fetchall() # tuo yhden tuloksen joukosta, oletuksena aakkosjärjestys
 
