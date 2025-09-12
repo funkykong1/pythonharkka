@@ -36,6 +36,8 @@ answers = {
             "uusi" : 1,
             "new" : 1
         }
+
+# Etsitään annetusta vastauksesta jokin vastaava sana
 def tulkitse_vastaus(va):
     lp = None
 
@@ -58,6 +60,7 @@ while True:
 
         # uusi while looppi jotta ei tarvitse aloittaa ohjelmaa uudelleen joka kerta
         while True:
+            # Tulostetaan kaikki lentokentät koodeittan
             print(f"Lentokentät tietokannassa ovat {list(lenkent.keys())}")
             icao = input("Valitse lentokenttä ICAO-koodin mukaan. Tyhjä vastaus lopettaa.").upper().strip()
 
@@ -88,7 +91,7 @@ while True:
             print(f"Tietokantaan lisätty '{lk}' tunnuksella '{ic}'!!")
             time.sleep(1.5)
 
-        #mikäli vastausta ei ymmärretä, yritä uudelleen!
+        # mikäli vastausta ei ymmärretä, yritä uudelleen!
     else:
         print("Anna vastaukseksi vaan sana jota haluat tehdä, etsiä, lisätä, poistua")
         continue

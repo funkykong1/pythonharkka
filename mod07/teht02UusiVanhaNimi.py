@@ -1,4 +1,4 @@
-print("Anna minulle nimiä. Kerron onko se sanottu jo aikaisemmin vai ei \nLopeta ohjelma tyhjällä")
+print("Anna minulle nimiä. Kerron onko se sanottu jo aikaisemmin vai ei \nLopeta ohjelma tyhjällä !!")
 nimet = set()
 
 #yksinkertainen while mikä menee pois kun annetaan tyhjä
