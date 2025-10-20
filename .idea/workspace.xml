@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30276a3f-f669-4de5-9e81-035d6d88080a" name="Changes" comment="call that a geo on the python">
-      <change afterPath="$PROJECT_DIR$/HAUSKA_KOE_TEHT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod09/kaara.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod09/teht01Auto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod09/teht02AutoKiihdyttää.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod09/teht03AutoKulkee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod09/teht04Kilpailu.py" afterDir="false" />
+    <list default="true" id="30276a3f-f669-4de5-9e81-035d6d88080a" name="Changes" comment="ysi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fortest.py" beforeDir="false" afterPath="$PROJECT_DIR$/fortest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod08/ny.py" beforeDir="false" afterPath="$PROJECT_DIR$/ny.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,7 +329,7 @@
       <workItem from="1758278222817" duration="20000" />
       <workItem from="1758523667769" duration="48000" />
       <workItem from="1759214289936" duration="1018000" />
-      <workItem from="1760946076546" duration="5023000" />
+      <workItem from="1760946076546" duration="6785000" />
     </task>
     <task id="LOCAL−00001" summary="eka">
       <option name="closed" value="true" />
@@ -402,7 +394,14 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1757675204825</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="ysi">
+      <option name="closed" value="true" />
+      <created>1760953854411</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1760953854411</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +433,8 @@
     <MESSAGE value="merkittävästi parempi" />
     <MESSAGE value="hello hello hello how low" />
     <MESSAGE value="call that a geo on the python" />
-    <option name="LAST_COMMIT_MESSAGE" value="call that a geo on the python" />
+    <MESSAGE value="ysi" />
+    <option name="LAST_COMMIT_MESSAGE" value="ysi" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$teht04ListanLuvut.coverage" NAME="teht04ListanLuvut Coverage Results" MODIFIED="1756881991716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />

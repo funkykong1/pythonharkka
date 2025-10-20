@@ -19,8 +19,6 @@ class Auto:
 
 
 auto = Auto("ABC-123", 142)
-print(f"Luotu auto rekkarilla {auto.rekkari} ja huippunopeudella {auto.huippu}km/h")
-print(f"Auton {auto.rekkari} nopeus on {auto.nopeus}!")
 auto.kiihdytä(30)
 auto.kiihdytä(70)
 auto.kiihdytä(50)
