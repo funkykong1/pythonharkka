@@ -17,5 +17,11 @@ cursor.execute("SELECT ident FROM airport") # suorittaa komennon
 
 res = cursor.fetchall() # tuo yhden tuloksen joukosta, oletuksena aakkosjärjestys
 
-for i in range(300):
-    print(res[i])
+# for i in range(300):
+#     print(res[i])
+i = 0
+i &= 3
+print (i)
+
+
+
