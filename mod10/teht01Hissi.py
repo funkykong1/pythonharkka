@@ -33,13 +33,13 @@ class Hissi:
 
 h = Hissi()
 
-
+print("kerroksia on 10 ")
 while True:
     p = "dsstjipf"
     # looppaaaaaaa kunnes vastaus on korrekti koska en halua mitää virheitä
     while p not in range(0,11):
         # pidetään se stringinä vaan koska koko paska menee pipareiksi jos laitetaa int() siihen ja käyttäjä antaakin vahingossa kirjaimen tai jotain
-        p = input("Anna kerros mihin mennä niin meen sinne yksi kerros kerrallaaan koska tämä on hissi \n uus kerros ------->>> ")
+        p = input("Anna kerros mihin mennä niin meen sinne yksi kerros kerrallaaan koska tämä on hissi\n uus kerros ------->>> ")
         try:
             p = int(p)
         except ValueError:
