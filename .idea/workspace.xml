@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30276a3f-f669-4de5-9e81-035d6d88080a" name="Changes" comment="monoliitti">
+    <list default="true" id="30276a3f-f669-4de5-9e81-035d6d88080a" name="Changes" comment="talo tehtävä parempi :-)">
+      <change afterPath="$PROJECT_DIR$/mod12/mod12emt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod12/teht01Chuck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod12/teht02SääApplikaatio.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod10/teht01Hissi.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod10/teht01Hissi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod10/teht02Talo.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod10/teht02Talo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,71 +48,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.1eka.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HAUSKA_KOE_TEHT.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TUNTITEHTÄVÄ!!!.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fortest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ny (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.ny.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht01AnnaKaakao.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht01Auto.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht01Hissi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht01Kalastaja.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht01KolmellaJaolliset.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht01Lehtiä.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht01NoppienHeitto.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht01ToistuvaNopanheitto.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht01VuodenAjat.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht02AutoKiihdyttää.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht02Hyttiluokka.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht02IsoNoppa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht02KenttienMäärä.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht02TaasAutoja.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht02Talo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht02TuumatSenteiksi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht02UusiVanhaNimi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht02ViisiSuurinta.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht03Alkuluku.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht03AutoKulkee.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht03BensiinitLitroiksi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht03Geopy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht03HEMOGLOBIINI.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht03Lentokenttiä.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht03PALOHÄLYTYS!!!!!.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht03SuurinJaPienin.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht04Grande_Romuralli.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht04KarkausVuosi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht04Kaupungit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht04Kilpailu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht04Kisa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht04ListanLuvut.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht04NumeronArvaus.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht05KaksiListaa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht05Salasana.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht06KaksiPizzaa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht06ympyrä.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht1nimi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht2circle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht3suorakulmio.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht4kolmenumeroa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht5keskiaikainen.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teht6RandNum.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.1eka.executor": "Run",
+    "Python.HAUSKA_KOE_TEHT.executor": "Run",
+    "Python.TUNTITEHTÄVÄ!!!.executor": "Run",
+    "Python.fortest.executor": "Run",
+    "Python.mod12emt.executor": "Run",
+    "Python.ny (1).executor": "Run",
+    "Python.ny.executor": "Run",
+    "Python.teht01AnnaKaakao.executor": "Run",
+    "Python.teht01Auto.executor": "Run",
+    "Python.teht01Chuck.executor": "Run",
+    "Python.teht01Hissi.executor": "Run",
+    "Python.teht01Kalastaja.executor": "Run",
+    "Python.teht01KolmellaJaolliset.executor": "Run",
+    "Python.teht01Lehtiä.executor": "Run",
+    "Python.teht01NoppienHeitto.executor": "Run",
+    "Python.teht01ToistuvaNopanheitto.executor": "Run",
+    "Python.teht01VuodenAjat.executor": "Run",
+    "Python.teht02AutoKiihdyttää.executor": "Run",
+    "Python.teht02Hyttiluokka.executor": "Run",
+    "Python.teht02IsoNoppa.executor": "Run",
+    "Python.teht02KenttienMäärä.executor": "Run",
+    "Python.teht02TaasAutoja.executor": "Run",
+    "Python.teht02Talo.executor": "Run",
+    "Python.teht02TuumatSenteiksi.executor": "Run",
+    "Python.teht02UusiVanhaNimi.executor": "Run",
+    "Python.teht02ViisiSuurinta.executor": "Run",
+    "Python.teht03Alkuluku.executor": "Run",
+    "Python.teht03AutoKulkee.executor": "Run",
+    "Python.teht03BensiinitLitroiksi.executor": "Run",
+    "Python.teht03Geopy.executor": "Run",
+    "Python.teht03HEMOGLOBIINI.executor": "Run",
+    "Python.teht03Lentokenttiä.executor": "Run",
+    "Python.teht03PALOHÄLYTYS!!!!!.executor": "Run",
+    "Python.teht03SuurinJaPienin.executor": "Run",
+    "Python.teht04Grande_Romuralli.executor": "Run",
+    "Python.teht04KarkausVuosi.executor": "Run",
+    "Python.teht04Kaupungit.executor": "Run",
+    "Python.teht04Kilpailu.executor": "Run",
+    "Python.teht04Kisa.executor": "Run",
+    "Python.teht04ListanLuvut.executor": "Run",
+    "Python.teht04NumeronArvaus.executor": "Run",
+    "Python.teht05KaksiListaa.executor": "Run",
+    "Python.teht05Salasana.executor": "Run",
+    "Python.teht06KaksiPizzaa.executor": "Run",
+    "Python.teht06ympyrä.executor": "Run",
+    "Python.teht1nimi.executor": "Run",
+    "Python.teht2circle.executor": "Run",
+    "Python.teht3suorakulmio.executor": "Run",
+    "Python.teht4kolmenumeroa.executor": "Run",
+    "Python.teht5keskiaikainen.executor": "Run",
+    "Python.teht6RandNum.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\s2001085\PycharmProjects\PythonProject" />
@@ -346,7 +349,7 @@
       <workItem from="1761485447792" duration="251000" />
       <workItem from="1761485717088" duration="75000" />
       <workItem from="1761548607912" duration="13349000" />
-      <workItem from="1761635646355" duration="301000" />
+      <workItem from="1761635646355" duration="9426000" />
     </task>
     <task id="LOCAL−00001" summary="eka">
       <option name="closed" value="true" />
@@ -432,7 +435,14 @@
       <option name="presentableId" value="LOCAL−00012" />
       <updated>1761556978568</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL−00013" summary="talo tehtävä parempi :-)">
+      <option name="closed" value="true" />
+      <created>1761635987629</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1761635987629</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +477,8 @@
     <MESSAGE value="ysi" />
     <MESSAGE value="mini muutos" />
     <MESSAGE value="monoliitti" />
-    <option name="LAST_COMMIT_MESSAGE" value="monoliitti" />
+    <MESSAGE value="talo tehtävä parempi :-)" />
+    <option name="LAST_COMMIT_MESSAGE" value="talo tehtävä parempi :-)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -484,7 +495,8 @@
     <SUITE FILE_PATH="coverage/PythonProject$teht1nimi.coverage" NAME="teht1nimi Coverage Results" MODIFIED="1755670100404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod02" />
     <SUITE FILE_PATH="coverage/PythonProject$teht02TuumatSenteiksi.coverage" NAME="teht02TuumatSenteiksi Coverage Results" MODIFIED="1755677645970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod04" />
     <SUITE FILE_PATH="coverage/PythonProject$teht01AnnaKaakao.coverage" NAME="teht01AnnaKaakao Coverage Results" MODIFIED="1757673517724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod08" />
-    <SUITE FILE_PATH="coverage/PythonProject$teht02TaasAutoja.coverage" NAME="teht02TaasAutoja Coverage Results" MODIFIED="1761556584887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod11" />
+    <SUITE FILE_PATH="coverage/PythonProject$teht02TaasAutoja.coverage" NAME="teht02TaasAutoja Coverage Results" MODIFIED="1761636019036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod11" />
+    <SUITE FILE_PATH="coverage/PythonProject$teht01Chuck.coverage" NAME="teht01Chuck Coverage Results" MODIFIED="1761644775465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod12" />
     <SUITE FILE_PATH="coverage/PythonProject$teht02Talo.coverage" NAME="teht02Talo Coverage Results" MODIFIED="1761635869765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod10" />
     <SUITE FILE_PATH="coverage/PythonProject$teht01Hissi.coverage" NAME="teht01Hissi Coverage Results" MODIFIED="1761635959344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod10" />
     <SUITE FILE_PATH="coverage/PythonProject$teht5keskiaikainen.coverage" NAME="teht5keskiaikainen Coverage Results" MODIFIED="1755671089325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod02" />
@@ -494,6 +506,7 @@
     <SUITE FILE_PATH="coverage/PythonProject$teht03HEMOGLOBIINI.coverage" NAME="teht03HEMOGLOBIINI Coverage Results" MODIFIED="1755675887562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod03" />
     <SUITE FILE_PATH="coverage/PythonProject$teht04KarkausVuosi.coverage" NAME="teht04KarkausVuosi Coverage Results" MODIFIED="1755676560152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod03" />
     <SUITE FILE_PATH="coverage/PythonProject$teht01ToistuvaNopanheitto.coverage" NAME="teht01ToistuvaNopanheitto Coverage Results" MODIFIED="1756808087573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />
+    <SUITE FILE_PATH="coverage/PythonProject$mod12emt.coverage" NAME="mod12emt Coverage Results" MODIFIED="1761638573763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod12" />
     <SUITE FILE_PATH="coverage/PythonProject$teht03Geopy.coverage" NAME="teht03Geopy Coverage Results" MODIFIED="1758021980276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod08" />
     <SUITE FILE_PATH="coverage/PythonProject$teht05KaksiListaa.coverage" NAME="teht05KaksiListaa Coverage Results" MODIFIED="1756882121480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />
     <SUITE FILE_PATH="coverage/PythonProject$teht02UusiVanhaNimi.coverage" NAME="teht02UusiVanhaNimi Coverage Results" MODIFIED="1757311396254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod07" />
@@ -508,14 +521,14 @@
     <SUITE FILE_PATH="coverage/PythonProject$teht03Alkuluku.coverage" NAME="teht03Alkuluku Coverage Results" MODIFIED="1756881325607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod05" />
     <SUITE FILE_PATH="coverage/PythonProject$teht01Auto.coverage" NAME="teht01Auto Coverage Results" MODIFIED="1760951849067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod09" />
     <SUITE FILE_PATH="coverage/PythonProject$teht03AutoKulkee.coverage" NAME="teht03AutoKulkee Coverage Results" MODIFIED="1760961573949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod09" />
-    <SUITE FILE_PATH="coverage/PythonProject$teht04Grande_Romuralli.coverage" NAME="teht04Grande_Romuralli Coverage Results" MODIFIED="1761552342027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod10" />
+    <SUITE FILE_PATH="coverage/PythonProject$teht04Grande_Romuralli.coverage" NAME="teht04Grande_Romuralli Coverage Results" MODIFIED="1761636122028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod10" />
     <SUITE FILE_PATH="coverage/PythonProject$teht02IsoNoppa.coverage" NAME="teht02IsoNoppa Coverage Results" MODIFIED="1756808384613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />
     <SUITE FILE_PATH="coverage/PythonProject$teht01NoppienHeitto.coverage" NAME="teht01NoppienHeitto Coverage Results" MODIFIED="1756881282367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod05" />
     <SUITE FILE_PATH="coverage/PythonProject$teht04Kaupungit.coverage" NAME="teht04Kaupungit Coverage Results" MODIFIED="1756881371801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod05" />
     <SUITE FILE_PATH="coverage/PythonProject$TUNTITEHTÄVÄ___.coverage" NAME="TUNTITEHTÄVÄ!!! Coverage Results" MODIFIED="1761485766821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$1eka.coverage" NAME="1eka Coverage Results" MODIFIED="1755600261820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod01" />
     <SUITE FILE_PATH="coverage/PythonProject$teht02KenttienMäärä.coverage" NAME="teht02KenttienMäärä Coverage Results" MODIFIED="1757675067946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod08" />
-    <SUITE FILE_PATH="coverage/PythonProject$teht01Lehtiä.coverage" NAME="teht01Lehtiä Coverage Results" MODIFIED="1761555262864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod11" />
+    <SUITE FILE_PATH="coverage/PythonProject$teht01Lehtiä.coverage" NAME="teht01Lehtiä Coverage Results" MODIFIED="1761636012941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod11" />
     <SUITE FILE_PATH="coverage/PythonProject$teht03BensiinitLitroiksi.coverage" NAME="teht03BensiinitLitroiksi Coverage Results" MODIFIED="1756881545769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod06" />
     <SUITE FILE_PATH="coverage/pythonharkka$teht06ympyrä.coverage" NAME="teht06ympyrä Coverage Results" MODIFIED="1756630854890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod04" />
     <SUITE FILE_PATH="coverage/PythonProject$teht01VuodenAjat.coverage" NAME="teht01VuodenAjat Coverage Results" MODIFIED="1756884135868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mod07" />
