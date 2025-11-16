@@ -26,9 +26,7 @@ def kaakao(icao):
     cursor = yhteys.cursor()
     # HAE country sekä airport hakemistoista kaikki relevantti tieto lentokentästä.
     cursor.execute(f"SELECT airport.name, airport.municipality, FROM airport WHERE ident = {icao}")
-    lk = cursor.fetchone()
-
-    return lk
+    lk = cursor.fetchall()
 
     name = lk[0]
     region = lk[1]
