@@ -1,17 +1,19 @@
 import mysql.connector
 from flask import Flask, json
+from flask_cors import CORS
 import json
 
 app = Flask(__name__)
-
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/')
 def moikka():
     return "Hello world!!"
 
 
-# reitti on http://127.0.0.1:3000/alkuluku/luku
-@app.route('/kentta/<icao>')
+# reitti on http://127.0.0.1:3000/airport/icao
+@app.route('/airport/<icao>')
 def kaakao(icao):
 
     yhteys = mysql.connector.connect(
